@@ -1,0 +1,78 @@
+@import url(reset.css); /*Позволяет импортировать содержимое CSS-файла в текущую стилевую таблицу.*/
+html, body {padding:0; /*Нули пишут без единиц измерения.*/
+	margin:0}
+
+.container{width:1000px; 
+	margin:0 auto; /*0 - выравнивание по вертикали, auto - по горизонтали*/
+	max-width:4000px; /*Максимальная ширина страницы.*/
+	background-color:#eeddbb}
+.header{height:100px}
+.content{margin-left:102px; /*Внешний отступ с левой стороны плюс минимум два пикселя больше ширины левой колонки.*/
+	margin-right:102px;
+	position:relative} /* Отсчет координат ведется от края родительского элемента (этого элемента).*/
+.left{width:100px;
+	background:green;
+	float:left;
+	position:relative} /* Отсчет координат ведется от края родительского элемента (этого элемента).*/
+.right{width:100px;
+	background-color: aquamarine;
+	float:right;
+	position:relative} /* Отсчет координат ведется от края родительского элемента (этого элемента).*/
+.footer{height:50px;
+	clear:both}
+
+h1{margin:0;
+	text-align:center;
+	padding-top:30px;
+	font-size:30px}
+
+.fl{float:left} /*Обтекание. Элемент расположен слева, а всё остальное его обтекает с противоположной стороны*/
+.fr{float:right}
+.margin{margin:2px}
+.pa{position:absolute; /*Позиционинование абсолютное картинок.*/
+	top:0;
+	left:0}
+.parrowl{position:absolute; /*Позиционирование левой стрелки.*/
+	top:200px;
+	left:2px}
+.parrowr{position:absolute; /*Позиционирование правой стрелки.*/
+	top:200px;
+	right:2px}
+.visible{visibility:visible} /*Картинка видимая.*/
+.hidden{visibility:hidden} /*Картинка невидимая.*/
+/*
+.visib1{visibility:visible} /*Первая картинка видимая.*/
+/*
+.visib2{visibility:hidden} /*Картинка невидимая.*/
+/*
+.visib3{visibility:hidden}
+.visib4{visibility:hidden}
+.visib5{visibility:hidden}
+.visib6{visibility:hidden}
+.visib7{visibility:hidden}
+.visib8{visibility:hidden}
+.visib9{visibility:hidden}
+.visib10{visibility:hidden}
+*/
+.cur{cursor:pointer} /*Устанавливает форму курсора, когда он находится в пределах элемента.*/
+.mt{margin-top:10px}
+.mb{margin-bottom:50px}
+.layer{overflow:auto;
+	/*overflow:scroll;*/
+	/*overflow:visible;*/
+	/*overflow:hidden;*/ /*Фиксирует строго заданный размер.*/
+	width:800px;
+	height:100px}
+
+/*
+.l1{}
+.l2{}
+.l3{}
+.l4{}
+.l5{}
+.l6{}
+.l7{}
+.l8{}
+.l9{}
+.l10{}
+*/
